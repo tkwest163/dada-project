@@ -1,0 +1,300 @@
+/* Secular One Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    background-color: rgb(250, 252, 250);
+}
+
+/* Nav Bar */
+
+nav {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    background-color: rgb(250, 252, 250);
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Secular One", sans-serif;
+    color: rgb(39, 55, 109);
+}
+
+.logo{
+    display: flex;
+    margin-left: 20px;
+    padding: 15px;
+    font-size: 50px;
+}
+
+.login {
+    border: 2px solid rgb(39, 55, 109);
+    width: 25%;
+    text-align: center;
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    font-family: "Secular One", sans-serif;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.login:hover {
+    border-color: rgb(79, 115, 232);
+}
+
+
+/* First Page */
+
+body {
+    display: inline;
+    position: absolute;
+}
+
+header {
+    display: block;
+    text-align: center;
+    margin: 10px 10px;
+    padding: 0 40px;
+    color: rgb(0, 208, 255);
+    font-family: "Secular One", sans-serif;
+    font-size: 40px;
+}
+
+.first-page {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+
+#first-para,
+#middle-para,
+#end-para {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 20pt;
+}
+
+#first-para {
+    color: rgb(39, 55, 109);
+}
+
+#middle-para {
+    color: rgb(0, 208, 255);
+}
+
+#end-para {
+    font-size: 19px;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: lighter;
+    color: rgb(39, 55, 109);
+}
+
+.body-button-a {
+    margin: 10px;
+    padding: 10px 30px;
+    border: 2px solid rgb(39, 55, 109);
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(39, 55, 109);
+}
+
+/* Second Page */
+
+.second-page {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: ;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.second-page,
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(39, 55, 109);
+}
+
+#first-para-2,
+#second-para,
+#middle-para-2,
+#end-para-2 {
+    font-weight: lighter;
+    text-align: left;
+    color: rgb(39, 55, 109);
+    margin-top: 50px;
+}
+
+.peng-container {
+    overflow: auto;
+    display: block;
+    justify-content: space-between;
+    width: 90%;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#peng-1,
+#first-para-2 {
+    width: 50%;
+}
+
+#first-para-2 {
+    margin-bottom: 30px;
+    margin-right: 400px;
+    margin-left: 5px;
+}
+
+#peng-2,
+#second-para {
+    width: 50%;
+}
+
+#second-para {
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-left: 300px;
+}
+
+#peng-3,
+#middle-para-2 {
+    width: 50%;
+}
+
+#middle-para-2 {
+   margin-top: 40px;
+   margin-bottom: 30px;
+   margin-right: 390px;
+}
+ 
+#peng-4,
+#end-para-2 {
+    margin-left: 40px;
+}
+
+#end-para-2 {
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 350px;
+    margin-bottom: 60px;
+}
+
+/* Sign-Up Button */
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 250px 20px 250px;
+    padding: 10px;
+    border: 2px solid rgb(39, 55, 109);
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(39, 55, 109);
+}
+
+.sign-up a {
+    color: white;
+    background-color: rgb(39, 55, 109);
+}
+
+a:hover {
+    color: rgb(79, 115, 232);
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: rgb(247, 247, 208);
+    height: 30vh;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding: 0 40px;
+}
+
+#footer {
+   margin-top: 10px;
+}
+
+#footer a {
+    margin-top: 25px;
+    background-color: rgb(247, 247, 208);
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+#contact,
+#privacy,
+#terms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(247, 247, 208);
+    font-size: 28px;
+}
+
+/* images */
+
+#img-phone {
+    max-width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    text-align: center;
+}
+
+#peng-1, 
+#peng-2, 
+#peng-3,
+#peng-4 img {
+    display: block;
+
+}
+
+#peng-2,
+#peng-4 {
+    float: left;
+}
+
+#peng-1,
+#peng-3 {
+  float: right;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.peng-1,
+.peng-3 h2 {
+    display: flex;
+}
